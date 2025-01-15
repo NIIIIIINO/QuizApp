@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/questions_screen.dart';
+import 'package:myapp/start_screen.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -10,7 +11,7 @@ void main() {
             colors: [Colors.purple, Colors.deepPurple],
           ),
         ),
-        child: const QuestionsScreen()
+        child: const StartScreen()
       ),
     ),
   ));
